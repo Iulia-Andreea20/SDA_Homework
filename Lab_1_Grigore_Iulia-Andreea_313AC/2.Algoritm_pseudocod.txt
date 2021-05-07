@@ -1,0 +1,24 @@
+Acest algoritm scris in pseudocod isi propune sa rezolve o problema cotidiana,
+care poate fi automatizata, deoarece presupune un set de pasi exacti. 
+Si anume, in momentul in care PC-ul este pornit, algoritmul trebuie sa dechida,
+in functie de zi, o aplicatie. In zilele de facultate, algoritmul deshide Teams,
+iar, in zilele de weekend, deschide LOL (un joc).
+
+citeste zi, perioada_executie_algoritm
+
+pentru i<-1, perioada_executie_algoritm executa
+     daca zi = 6 sau zi = 7 atunci
+         x<-instructiuni_deschidere_LOL
+     altfel
+         x<-instructiuni_deschidere_Teams
+     citeste zi
+
+
+Variabila perioada_executie reprezinta numarul de zile in care algoritmul se va
+executa, iar variabila zi va citi ziua curenta. Pe baza acesteia, se va executa un 
+set de instructiuni, descris succint, prin atribuirea unor valori variabilei x,
+menite sa deschida una dintre cele 2 aplicatii, Teams sau LOL.
+Apoi, se va citi iarasi ziua si se vor realiza pasii corespunzatori pe parcursul
+unui numar finit de zile, citit de la tastatura.
+
+       
