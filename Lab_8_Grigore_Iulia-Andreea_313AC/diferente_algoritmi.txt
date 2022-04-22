@@ -1,0 +1,4 @@
+Diferenta intre algoritmii actuali si cei din tema precedenta este
+aceea ca folosesc idei conceptuale usor diferite pentru a realiza 
+arborele minim de acoperire. In plus, alghoritmul Bellman-Ford 
+nu functioneaza in cazul unor cicluri de greutate negativa. 
